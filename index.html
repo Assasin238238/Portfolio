@@ -1,1 +1,100 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="body">
+    <header class="nadpis">
+        <h1 align="center">Petr Harnach</h1>
+        <p align="center">Front-end Developer</p>
+    </header>
+    
+    <p>Kontakt: <a href="mailto:harnach2006@gmail.com">harnach2006@gmail.com</a> | Tel: +420 123 456 789</p>
+    <ul>
+        <li><a href="https://github.com/Assasin238238">GitHub</a></li>
+        <li><a href="https://twitter.com/assasin238238">Twitter</a></li>
+    </ul>
+    <section id="intro">
+        <h2>Úvod</h2>
+        <p>Jsem začínající programátor zabývající se html, css, python a C#</p>
+    </section>
+    
+    <section id="about-me">
+        <h2>O mně</h2>
+        <p>Detailnější informace o mé profesním pozadí, dovednostech a zkušenostech.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Dovednosti</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C#</li>
+            <!-- Můžete přidat ikony nebo grafy pro každou dovednost -->
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Příklady vašich prací, projektů nebo aplikací -->
+        <div class="project">
+            <h3>Kucharstvi na prvním místě</h3>
+            <p>Stránka měla za úkol ukázat navštěvníkům recepty, které možná neznají a zpřístupnit komunikaci s ostatními kuchaři.</p>
+            <p>Použité technologie: HTML, CSS, JavaScript</p>
+        </div>
+        
+        <div class="project">
+            <h3>Projekt</h3>
+            <p>Program je rozdělen na dvě části. 1. část je zápisník, a 2. část jsou minihry</p>
+            <p>Použité technologie: Python</p>
+            <a href="https://replit.com/@Assasin238238">Odkaz na Replit</a> | <a href="https://replit.com/@Assasin238238/projekt">odkaz na program</a>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Vzdělání</h2>
+        <!-- Seznam relevantních kurzů, certifikátů a formálního vzdělání -->
+        <div class="education-item">
+            <h3>1. vzdělání</h3>
+            <p>Škola: Bednářova 28</p>
+            <p>Rok dokončení: 2022</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>2. vzdělání</h3>
+            <p>Škola: Střední škola škola technická a ekonomická Brno </p>
+            <p>Rok nástupu: 2022</p>
+        </div>
+        
+    </section>
+    
+    <section>
+        <h2>Kontaktní formulář</h2>
+        <!-- nefunguje -->
+        <form action="process-form.php" method="post">
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Zpráva:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Odeslat</button>
+        </form>
+    </section>
+    
+    <footer>
+        <ul>
+            <li><a href="https://github.com/Assasin238238">GitHub</a></li>
+        </ul>
+        <p align="center">&copy; 2023 Petr Harnach</p>
+    </footer>
+</body>
+</html>
